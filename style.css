@@ -1,0 +1,23 @@
+.color_1{
+    color: #223240;
+}
+.color_2{
+    color: #F28705;
+}
+.color_3{
+    color: #8C3503;
+} 
+.color_4{
+    background-color: #591902;
+}
+.color_5{
+    color: #53616F;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
