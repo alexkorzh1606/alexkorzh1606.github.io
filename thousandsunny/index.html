@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thousand Sunny</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://material-icons.github.io/material-icons-font/css/all.css" />
+    <script src="code.js" defer></script>
+</head>
+<body>
+    <div class="main_wrapper">
+
+        <header class="header">
+            <div class="header_wrapper">
+                <div class="header__logo"></div>
+                <div class="header__control">
+                    <nav class="header__control_nav">
+                        <a href="#" class="header__control_nav_item current_nav_item">Home</a>
+                        <a href="#" class="header__control_nav_item">Destinations</a>
+                        <a href="#" class="header__control_nav_item">About</a>
+                        <a href="#" class="header__control_nav_item">Partner</a>
+                    </nav>
+                    <div class="header__control_signup">
+                        <button class="header__control_signup_btn login_btn">Login</button>
+                        <button class="header__control_signup_btn register_btn">Register</button>
+                    </div>
+                </div>
+                <div class="header__adaptive_menu_button">
+                    <div class="button_plus">
+                        <i class="material-icons md-menu"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="adaptive_control visibility_switcher">
+                <div class="adaptive__control_signup">
+                    <button class="adaptive__control_signup_btn adaptive__login_btn">Login</button>
+                    <button class="adaptive__control_signup_btn adaptive__register_btn">Register</button>
+                </div>
+                <nav class="adaptive__control_nav">
+                    <a href="#" class="adaptive__control_nav_item current_nav_item">Home</a>
+                    <a href="#" class="adaptive__control_nav_item">Destinations</a>
+                    <a href="#" class="adaptive__control_nav_item">About</a>
+                    <a href="#" class="adaptive__control_nav_item">Partner</a>
+                </nav>
+            </div>
+            </div>
+        </header>
+    
+        <section class="search">
+            <div class="search_wrapper">
+                <h1 class="main_title">Explore and Travel</h1>
+                <h2 class="search__title">Holiday finder</h2>
+                <div class="search__border"></div>
+                <form action="index.html" method="post" class="search__form">
+                    <select name="location" id="location_select" class="search__form_select">
+                        <option value="" disabled selected>Location</option>
+                        <option value="africa">Africa</option>
+                        <option value="abtarctica">Antarctica</option>
+                        <option value="asia">Asia</option>
+                        <option value="europe">Europe</option>
+                        <option value="america">America</option>
+                    </select>
+                    <select name="activity" id="activity_select" class="search__form_select">
+                        <option value="" disabled selected>Activity</option>
+                        <option value="adventure">Adventure Travel</option>
+                        <option value="culture">Art And Culture</option>
+                        <option value="nature">Wildlife And Nature</option>
+                        <option value="family">Family Holidays</option>
+                        <option value="food">Food And Drink</option>
+                    </select>
+                    <select name="grade" id="grade_select" class="search__form_select">
+                        <option value="" disabled selected>Grade</option>
+                        <option value="econom">Econom</option>
+                        <option value="standard">Standard</option>
+                        <option value="premium">Premium</option>
+                        <option value="luxury">Luxury</option>
+                    </select>
+                    <select name="date" id="date_select" class="search__form_select">
+                        <option value="" disabled selected>Date</option>
+                        <option value="week">This Week</option>
+                        <option value="month">This Month</option>
+                        <option value="year">This Year</option>
+                        <option value="next-year">Next Year</option>
+                    </select>
+                    <button type="submit" class="search__form_btn">Explore</button>
+                </form>
+            </div>
+        </section>
+    
+        <section class="description">
+            <div class="description_wrapper">
+                <h2 class="description__title">A new way to explore the world </h2>
+                <p class="description__text">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                <button class="description__btn">Learn more</button>
+            </div>
+        </section>
+    
+        <section class="destinations">
+            <div class="destinations_wrapper">
+                <h2 class="destinations__title">Featured destinations</h2>
+                <a href="#" class="destinations__link">View all ></a>
+                <div class="destinations__cards">
+                    <div class="destinations__cards_item indonesia">
+                        <div class="destinations__cards_item_content">
+                            <h3 class="destinations__cards_item_content_title">Raja Ampat</h3>
+                            <p class="destinations__cards_item_content_text">Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="destinations__cards_item china">
+                        <div class="destinations__cards_item_content">
+                            <h3 class="destinations__cards_item_content_title">Fanjingshan</h3>
+                            <p class="destinations__cards_item_content_text">China</p>
+                        </div>
+                    </div>
+                    <div class="destinations__cards_item switzerland">
+                        <div class="destinations__cards_item_content">
+                            <h3 class="destinations__cards_item_content_title">Vevey</h3>
+                            <p class="destinations__cards_item_content_text">Switzerland</p>
+                        </div>
+                    </div>
+                    <div class="destinations__cards_item montenegro">
+                        <div class="destinations__cards_item_content">
+                            <h3 class="destinations__cards_item_content_title">Skadar</h3>
+                            <p class="destinations__cards_item_content_text">Montenegro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="guides">
+            <div class="guides_wrapper">
+                <h2 class="guides__title">Guides by Thousand Sunny</h2>
+                <p class="guides__text">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
+                <button class="guides__btn">Download</button>
+            </div>
+        </section>
+    
+        <section class="testimonials">
+            <div class="testimonials_wrapper">
+                <h2 class="testimonials__title">Testimonials</h2>
+                <blockquote class="testimonials__quote">
+                    <div class="testimonials__quote_score"></div>
+                    <p class="testimonials__quote_text">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
+                    <p class="testimonials__quote_authorname">Edward Newgate</p>
+                    <p class="testimonials__quote_authordescription">Founder Circle</p>
+                </blockquote>
+                <div class="testimonials__img">
+                    <div class="testimonials__img_element"></div>
+                    <div class="testimonials__img_nav">
+                        <div class="testimonials__img_nav_back"></div>
+                        <div class="testimonials__img_nav_forward"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="stories">
+            <div class="stories_wrapper">
+                <h2 class="stories__title">Trending stories</h2>
+                <a href="#" class="stories__link">View all ></a>
+                <div class="stories__cards">
+                    <div class="stories__cards_item">
+                        <div class="stories__cards_item_img meditation"></div>
+                        <h3 class="stories__cards_item_title">The many benefits of taking a healing holiday</h3>
+                        <p class="stories__cards_item_textpreview">‘Helaing holidays’ are on the rise to help maximise your health and happines...</p>
+                        <a href="#" class="stories__cards_item_link">Read more</a>
+                    </div>
+                    <div class="stories__cards_item">
+                        <div class="stories__cards_item_img food"></div>
+                        <h3 class="stories__cards_item_title">The best Kyoto restaurant to try Japanese food</h3>
+                        <p class="stories__cards_item_textpreview">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...</p>
+                        <a href="#" class="stories__cards_item_link">Read more</a>
+                    </div>
+                    <div class="stories__cards_item">
+                        <div class="stories__cards_item_img pyramid"></div>
+                        <h3 class="stories__cards_item_title">Skip Chichen Itza and head to this remote Yucatan</h3>
+                        <p class="stories__cards_item_textpreview">It’s remote and challenging to get, but braving the jungle and exploring these ruins without the...</p>
+                        <a href="#" class="stories__cards_item_link">Read more</a>
+                    </div>
+                    <div class="stories__cards_item">
+                        <div class="stories__cards_item_img wave"></div>
+                        <h3 class="stories__cards_item_title">Surf’s up at these beginner spots around the world</h3>
+                        <p class="stories__cards_item_textpreview">If learning to surf has in on your to-do list for a while, the good news is: it’s never too late...</p>
+                        <a href="#" class="stories__cards_item_link">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </div>
+
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <div class="footer__info">
+                <div class="footer__info_logo"></div>
+                <p class="footer__info_text">Plan and book your perfect trip with expert advice, travel tips destination information from us</p>
+                <p class="footer__info_copyright">©2020 Thousand Sunny. All rights reserved</p>
+            </div>
+            <nav class="footer__nav">
+                <ul class="footer__nav_list">
+                    <li class="footer__nav_list_item_first"><a href="#" class="footer__nav_list_item_link_first">Destinations</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Africa</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Antarctica</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Asia</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Europe</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">America</a></li>
+                </ul>
+                <ul class="footer__nav_list">
+                    <li class="footer__nav_list_item_first"><a href="#" class="footer__nav_list_item_link_first">Shop</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Destination Guides</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Pictorial & Gifts</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Special Offers</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Delivery Times</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">FAQs</a></li>
+                </ul>
+                <ul class="footer__nav_list">
+                    <li class="footer__nav_list_item_first"><a href="#" class="footer__nav_list_item_link_first">Interests</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Adventure Travel</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Art And Culture</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Wildlife And Nature</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Family Holidays</a></li>
+                    <li class="footer__nav_list_item"><a href="#" class="footer__nav_list_item_link">Food And Drink</a></li>
+                </ul>
+            </nav>
+            <div class="footer__border"></div>
+            <div class="footer__social">
+                <div class="footer__social_item twitter"></div>
+                <div class="footer__social_item facebook"></div>
+                <div class="footer__social_item instagram"></div>
+                <div class="footer__social_item linkedin"></div>
+                <div class="footer__social_item youtube"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

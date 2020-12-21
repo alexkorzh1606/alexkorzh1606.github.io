@@ -1,4 +1,4 @@
-.color_1{
+/* .color_1{
     color: #223240;
 }
 .color_2{
@@ -12,7 +12,7 @@
 }
 .color_5{
     color: #53616F;
-}
+} */
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -21,3 +21,27 @@ h1 {
 p {
     font-family: 'Open Sans', sans-serif;
 }
+
+
+ @keyframes color-change-5x {
+    0% {
+      background: #223240;
+    }
+    25% {
+      background: #F28705;
+    }
+    50% {
+      background: #8C3503;
+    }
+    75% {
+      background: #591902;
+    }
+    100% {
+      background: #53616F;
+    }
+  }
+
+  .color-change-5x {
+	animation: color-change-5x 8s linear infinite alternate both;
+}
+  

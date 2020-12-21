@@ -1,0 +1,102 @@
+.stories {
+    background-image: url(../img/stories_bg.png);
+    background-repeat: no-repeat;
+    padding: 30px 20px 0 20px;
+    margin-bottom: 271px
+}
+
+.stories_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 80px;
+}
+
+.stories__title {
+    font: var(--chapter-title-font);
+    color: var(--chapter-title-color);
+    margin: 0;
+}
+
+.stories__link {
+    font: var(--chapter-link-font);
+    color: var(--button-bg-color);
+    text-decoration: none;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.stories__link:hover {
+    text-decoration: underline;
+    color: var(--main-alert-color);
+    /* transition: all 0.5s; */
+}
+
+.stories__cards {
+    margin-top: 56px;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories__cards_item {
+    width: 266px;
+    height: 446px;
+    min-width: 18%;
+
+}
+
+
+.stories__cards_item_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 266px;
+    height: 240px;
+    border-radius: 8px 8px 0 0;
+}
+.meditation {
+    background-image: url(../img/meditation.jpg);
+}
+
+.food {
+    background-image: url(../img/food.jpg);
+}
+
+.pyramid {
+    background-image: url(../img/pyramid.jpg);
+}
+
+.wave {
+    background-image: url(../img/wave.jpg);
+}
+
+.stories__cards_item_title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    color: var(--chapter-title-color);
+    margin: 13px 0 13px 0;
+}
+
+.stories__cards_item_textpreview {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--cards-text-color);
+    margin-bottom: 23px;
+}
+
+.stories__cards_item_link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: var(--button-bg-color);
+    text-decoration: none;
+}
+
+.stories__cards_item_link:hover {
+    text-decoration: underline;
+    color: var(--main-alert-color);
+    /* transition: all 0.5s; */
+}

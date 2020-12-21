@@ -1,0 +1,30 @@
+.main_wrapper {
+    max-width: 1455px;
+    margin: 0 auto;
+}
+
+.visibility_switcher {
+    display: none !important;
+}
+
+:root {
+    --chapter-title-font: 700 36px / 50px 'Playfair Display', serif;
+    --chapter-text-font: 300 17px / 30px 'Mulish', sans-serif;
+    --chapter-button-font: 600 16px 'Inter', sans-serif;
+    --chapter-link-font: 600 17px  'Inter', sans-serif;
+    --button-height: 48px;
+    --button-width: 164px;
+    --menu-active-color: #202336;
+    --menu-nonactive-color: #B8BECD;
+    --button-bg-color: #FB8F1D;
+    --button-text-color: #FFFFFF;
+    --form-border-color: #AFB0B9;
+    --form-text-color: #4A4C53;
+    --chapter-title-color: #000000;
+    --chapter-text-color: #7D7987;
+    --footer-bg-color: #F9F9FB;
+    --main-alert-color: #1ABE84;
+    --cards-text-color: #7D7987;
+    --footer-text-color: #848484;
+    --footer-border-color: #C4C4C4;
+}

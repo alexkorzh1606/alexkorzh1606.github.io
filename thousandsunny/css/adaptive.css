@@ -1,0 +1,178 @@
+@media screen and (max-width: 768px) {
+    .main_wrapper {
+        margin: 0;
+        width: 100%;
+    }
+
+    .header_wrapper {
+        margin: 0;
+        padding: 10px 15px;
+    }
+
+    .header__control {
+        display: none;
+    }
+
+    .adaptive__control {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .adaptive__control_signup {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .adaptive__control_signup_btn {
+        margin-top: 10px;
+        width: 132px;
+        height: 44px;
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    .adaptive__control_nav {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .adaptive__control_nav_item {
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--menu-nonactive-color);
+    }
+    
+    .adaptive__control_nav_item:hover {
+        text-decoration: underline;
+        color: var(--menu-active-color);
+    }
+    
+    .current_nav_item {
+        color: var(--menu-active-color);
+    }
+    
+    .adaptive__login_btn {
+        border: 1px solid var(--button-bg-color);
+        background: var(--button-text-color);
+        color: var(--button-bg-color);
+    }
+    
+    .adaptive__login_btn:hover {
+        border-color: var(--main-alert-color);
+        color: var(--main-alert-color);
+        cursor: pointer;
+    }
+    
+    .adaptive__register_btn {
+        border: 1px solid var(--button-bg-color);
+        background:var(--button-bg-color);
+        color: var(--button-text-color);
+    }
+    
+    .adaptive__register_btn:hover {
+        border-color: var(--main-alert-color);
+        background-color: var(--main-alert-color);
+        cursor: pointer;
+        /* transition: all 0.5s; */
+    }
+
+    .header__adaptive_menu_button {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .header__adaptive_menu_button:hover {
+        cursor: pointer;
+    }
+
+    .md-menu {
+        color: var(--button-bg-color);
+    }
+
+    .md-menu:hover {
+        color: var(--main-alert-color);
+    }
+
+    .search {
+        background-position: top left;
+        margin: 20px;
+        padding: 0;
+    }
+    .search_wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .main_title {
+        font-size: 32px;
+    }
+
+    .search__title {
+        margin-top: 0;
+    }
+
+    .search__border {
+        display: none;
+    }
+
+    .search__form {
+        display: block;
+    }
+
+    .search__form_select {
+        margin-bottom: 10px;
+    }
+
+    .description {
+        background-position: top right;
+        margin: 0;
+        padding: 0;
+    }
+
+    .description_wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .description__title {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .destinations__cards {
+        overflow: scroll;
+    }
+
+    .testimonials_wrapper {
+        display: block;
+    
+    }
+
+    .testimonials__img {
+        width: 100%;
+
+    }
+
+    .stories__cards {
+        overflow: scroll;
+    }
+
+    .footer_wrapper {
+        display: block;
+    }
+
+    .footer__nav {
+        display: none;
+    }
+}

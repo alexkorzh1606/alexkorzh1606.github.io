@@ -1,0 +1,105 @@
+.testimonials {
+    background-image: url(../img/testimonials_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 250px 20px 0 20px;
+    margin-bottom: 231px;
+}
+
+.testimonials_wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.testimonials__title {
+    grid-column: 1/3;
+    font: var(--chapter-title-font);
+    color: var(--chapter-title-color);
+    margin-bottom: 145px;
+}
+
+.testimonials__quote {
+    width: 66%;
+}
+
+.testimonials__quote_score {
+    width: 189px;
+    height: 24px;
+    background-image: url(../img/stars.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.testimonials__quote {
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials__quote_text {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--chapter-title-color);
+    margin-bottom: 40px;
+}
+
+.testimonials__quote_authorname {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: var(--chapter-title-color);
+}
+
+.testimonials__quote_authordescription {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: var(--chapter-title-color);
+}
+
+.testimonials__img {
+    width: 384px;
+    height: 491px;
+    border-radius: 10px;
+    background-image: url(../img/testimonials_photo.jpg);
+}
+
+.testimonials__img_element {
+    height: 32px;
+    width: 32px;
+    background-image: url(../img/photo_element.png);
+    margin-top: 470px;
+    margin-left: -16px;
+}
+
+.testimonials__img_nav {
+    width: 132px;
+    height: 60px;
+    background-color: var(--button-text-color);
+    border-radius: 10px 0 0 0;
+    margin: -70px 0 0 252px;
+    display: flex;
+}
+
+.testimonials__img_nav_back {
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/previous.png);
+    margin: 20px 0 0 30px;
+}
+
+.testimonials__img_nav_forward {
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/next.png);
+    margin: 20px 0 0 22px;
+}
+
+.testimonials__img_nav_forward:hover {
+    background-image: url(../img/next_active.png);
+    cursor: pointer;
+}

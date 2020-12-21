@@ -1,0 +1,40 @@
+.guides {
+    background-image: url(../img/guides_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 250px 20px 0 20px;
+}
+
+.guides_wrapper {
+    width: 30%;
+}
+
+.guides__title {
+    margin: 0 0 20px 0;
+    font: var(--chapter-title-font);
+    color: var(--chapter-title-color);
+}
+
+.guides__text {
+    font: var(--chapter-text-font);
+    color: var(--chapter-text-color);
+    margin-bottom: 39px;
+}
+
+.guides__btn {
+    height: 48px;
+    width: 164px;
+    border: 1px solid var(--button-bg-color);
+    background-color: var(--button-bg-color);
+    border-radius: 8px;
+    font: var(--chapter-button-font);
+    color: var(--button-text-color);
+    margin-bottom: 110px;
+}
+
+.guides__btn:hover {
+    border-color: var(--main-alert-color);
+    background-color: var(--main-alert-color);
+    cursor: pointer;
+}
